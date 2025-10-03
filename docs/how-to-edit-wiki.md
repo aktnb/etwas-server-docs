@@ -12,7 +12,7 @@
 1. 変更を保存するフォルダを用意し、ターミナルを開きます。
 2. リポジトリをクローンします。
    ```bash
-   git clone git@github.com:etwas-server/etwas-server-wiki.git
+   git clone https://github.com/aktnb/etwas-server-docs.git etwas-server-docs
    cd etwas-server-wiki
    ```
 3. 依存関係をインストールします。
