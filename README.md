@@ -1,8 +1,9 @@
 # Etwas Server Wiki
 
 ## ドキュメント
-環境構築は[セットアップ手順（Windows）](/docs/setup-windows.md)へ
-編集方法は[編集方法](/docs/how-to-edit-wiki.md)へ
+
+- 環境構築は[セットアップ手順（Windows）](/docs/setup-windows.md)へ
+- 編集方法は[編集方法](/docs/how-to-edit-wiki.md)へ
 
 ## セットアップ手順
 
