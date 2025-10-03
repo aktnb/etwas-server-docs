@@ -38,8 +38,8 @@ Windows スタートメニューで「PowerShell」と検索します。「Windo
    ```
    `pnpm -v` がバージョン番号を返せば準備完了です。
 
-   > [!IMPORTANT]
-   > 権限エラー（`EPERM: operation not permitted` など）が発生した場合は、PowerShell または Windows Terminal を「管理者として実行」で開き直してから再実行してください。
+> [!IMPORTANT]
+> 権限エラー（`EPERM: operation not permitted` など）が発生した場合は、PowerShell または Windows Terminal を「管理者として実行」で開き直してから再実行してください。
 
 ## 3. リポジトリの取得と依存関係の導入
 1. 作業用ディレクトリを作成し、Git でリポジトリをクローンします。
@@ -53,15 +53,16 @@ Windows スタートメニューで「PowerShell」と検索します。「Windo
    ```powershell
    pnpm install
    ```
-   > [!IMPORTANT]
-   > 初回実行時にブラウザやウイルス対策ソフトから許可を求められた場合は、信頼できる操作として承認してください。
 
-   > [!IMPORTANT]
-   > `pnpm` 実行時に「このシステムではスクリプトの実行が無効」と表示される場合は、PowerShell の実行ポリシーを変更します。
-   >  ```powershell
-   >  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-   >  ```
-   >  変更後に PowerShell を再起動し、再度 `pnpm install` を実行してください。
+> [!IMPORTANT]
+> 初回実行時にブラウザやウイルス対策ソフトから許可を求められた場合は、信頼できる操作として承認してください。
+
+> [!IMPORTANT]
+> `pnpm` 実行時に「このシステムではスクリプトの実行が無効」と表示される場合は、PowerShell の実行ポリシーを変更します。
+>  ```powershell
+>  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+>  ```
+>  変更後に PowerShell を再起動し、再度 `pnpm install` を実行してください。
 
 ## 4. 開発サーバーの起動と動作確認
 1. ローカル開発サーバーを起動します。
@@ -69,19 +70,19 @@ Windows スタートメニューで「PowerShell」と検索します。「Windo
    pnpm dev
    ```
 
-   > [!IMPORTANT]
-   > `pnpm dev` 起動時にポート 3000 が使用中と表示された場合は、`pnpm dev -- --port 3001` のようにポート番号を指定します。
+> [!IMPORTANT]
+> `pnpm dev` 起動時にポート 3000 が使用中と表示された場合は、`pnpm dev -- --port 3001` のようにポート番号を指定します。
 
-   > [!IMPORTANT]
-   > 初回実行時にブラウザやウイルス対策ソフトから許可を求められた場合は、信頼できる操作として承認してください。
+> [!IMPORTANT]
+> 初回実行時にブラウザやウイルス対策ソフトから許可を求められた場合は、信頼できる操作として承認してください。
 
-   > [!IMPORTANT]
-   > サーバーは Poweershell 上で `Ctrl` + `c` を押すことで停止できます
+> [!IMPORTANT]
+> サーバーは Poweershell 上で `Ctrl` + `c` を押すことで停止できます
 
 2. ブラウザで `http://localhost:3000` にアクセスし、ドキュメントが表示されることを確認します。MDX ファイルの変更はホットリロードで即時反映されます。
 
-   > [!NOTE]
-   > アクセス時にページがコンパイルされることによりロードに時間がかかる場合があります
+> [!NOTE]
+> アクセス時にページがコンパイルされることによりロードに時間がかかる場合があります
 
 ## 5. ビルドと本番動作確認の仕方（任意）
 以下のコマンドでビルドと検索インデックスの生成ができます。
