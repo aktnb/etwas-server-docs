@@ -90,6 +90,9 @@ Windows スタートメニューで「PowerShell」と検索します。「Windo
 - 本番相当のサーバー起動: `pnpm start`
 - Pagefind の再インデックス: `pnpm run postbuild`
 
+## 6. 編集しよう！
+[編集方法](/docs/how-to-edit-wiki.md) へ続く
+
 ## トラブルシューティングのヒント
 
 > [!TIP]
