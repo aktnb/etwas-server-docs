@@ -13,7 +13,7 @@
 2. リポジトリをクローンします。
    ```bash
    git clone https://github.com/aktnb/etwas-server-docs.git etwas-server-docs
-   cd etwas-server-wiki
+   cd etwas-server-docs
    ```
 3. 依存関係をインストールします。
    ```bash
