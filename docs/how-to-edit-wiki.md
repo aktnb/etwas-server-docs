@@ -101,7 +101,7 @@ git push origin feature/<トピック名>
 ## レビュー対応とマージ
 - レビューコメントがついたら、ローカルでブランチをチェックアウトしたまま修正します。
 - 追加の変更も同じブランチでコミットし、`git push` します。
-- レビューが承認されたら、GitHub 上で "Merge" を実行し、ローカルの `main` ブランチにも反映させます。
+- レビューが承認されたら、GitHub 上で "Merge" を実行し、ローカルの `master` ブランチにも反映させます。
   ```bash
   git switch master
   git pull origin master
@@ -111,6 +111,6 @@ git push origin feature/<トピック名>
 - **依存関係のインストールに失敗する**: pnpm のバージョンが古い場合は `npm install -g pnpm@latest` で更新してください。
 - **`pnpm build` が失敗する**: エラーメッセージに出ているファイルを開いて、Front Matter や import の綴りを確認します。
 - **Push に失敗する**: リモートブランチ名が重複していないか確認し、`git push --set-upstream origin feature/<トピック名>` を試してください。
-- **他の人の変更とコンフリクトした**: `git pull --rebase origin main` を実行し、指示に従ってコンフリクトを解消します。MDX では自分の編集部分だけが正しいか確認してから保存します。
+- **他の人の変更とコンフリクトした**: `git pull --rebase origin master` を実行し、指示に従ってコンフリクトを解消します。MDX では自分の編集部分だけが正しいか確認してから保存します。
 
 この手順に沿って進めれば、Git 初心者でも自信を持って Wiki を更新できるはずです。迷ったときは遠慮なくチームに相談してください。
