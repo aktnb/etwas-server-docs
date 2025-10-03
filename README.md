@@ -1,6 +1,8 @@
 # Etwas Server Wiki
 
-Etwas サーバーのドキュメントサイトです。Next.js と Nextra Docs theme で構築されており、`app/[[...mdxPath]]/page.jsx` をエントリポイントに `content/` ディレクトリ以下の MDX コンテンツをレンダリングします。
+## ドキュメント
+環境構築は[セットアップ手順（Windows）](/docs/setup-windows.md)へ
+編集方法は[編集方法](/docs/how-to-edit-wiki.md)へ
 
 ## セットアップ手順
 
@@ -24,7 +26,3 @@ pnpm dev
 - `content/` — トピック別に整理されたドキュメントを格納します
 - `content/_meta.js` — サイドバーの階層と並び順を定義します
 - `mdx-components.js` — 共有の MDX コンポーネントやショートコードを管理します
-
-## 貢献ガイドライン
-
-Pull Request を送る前に `pnpm build` を実行し、PR 説明には実行したコマンドを箇条書きで記載してください。UI に変更がある場合は before / after スクリーンショットを添付し、影響範囲やリグレッションリスクについても一言触れるとレビューがスムーズになります。
