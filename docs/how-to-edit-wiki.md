@@ -103,8 +103,8 @@ git push origin feature/<トピック名>
 - 追加の変更も同じブランチでコミットし、`git push` します。
 - レビューが承認されたら、GitHub 上で "Merge" を実行し、ローカルの `main` ブランチにも反映させます。
   ```bash
-  git checkout main
-  git pull origin main
+  git switch master
+  git pull origin master
   ```
 
 ## よくあるトラブル
