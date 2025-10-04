@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js: dev server",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "dev"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_OPTIONS": "--inspect=9229"
+      },
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "name": "Next.js: production server",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "start"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "production",
+        "NODE_OPTIONS": "--inspect=9230"
+      },
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "name": "Attach: Next.js process",
+      "type": "node",
+      "request": "attach",
+      "processId": "${command:PickProcess}",
+      "cwd": "${workspaceFolder}",
+      "skipFiles": [
+        "<node_internals>/**",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
