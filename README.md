@@ -27,3 +27,13 @@ pnpm dev
 - `content/` — トピック別に整理されたドキュメントを格納します
 - `content/_meta.js` — サイドバーの階層と並び順を定義します
 - `mdx-components.js` — 共有の MDX コンポーネントやショートコードを管理します
+
+## 画像の追加方法
+
+1. あらかじめ画像を圧縮しておきます
+おすすめは[あっしゅくま](https://imguma.com)でPCブラウザ幅x1に縮小することです
+
+2. public/images 配下に画像を配置します
+`public/images/villager-auto_0.png`
+
+3. 画像を表示したい mdx ファイルで `![画像の説明](../../public/images/villager-auto_0.png)` を指定すると表示されます
