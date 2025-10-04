@@ -31,7 +31,7 @@ pnpm dev
 ## 画像の追加方法
 
 1. あらかじめ画像を圧縮しておきます
-おすすめは[あっしゅくま](https://imguma.com)のPCブラウザ幅x1に縮小
+おすすめは[あっしゅくま](https://imguma.com)でPCブラウザ幅x1に縮小することです
 
 2. public/images 配下に画像を配置します
 `public/images/villager-auto_0.png`
