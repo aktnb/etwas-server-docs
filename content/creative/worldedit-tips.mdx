@@ -1,1 +1,43 @@
 # ワールドエディットのヒント
+
+### [WorldEdit](https://modrinth.com/plugin/worldedit)  
+※クリエイティブワールドにあらかじめ入っているので必須ではない
+
+### [WorldEditCUI](https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric)
+というMODで選択範囲の可視化ができるのでオススメ
+
+### [WorldEditの全コマンド](https://worldedit.enginehub.org/en/latest/commands/)
+
+### ↓覚えておきたいよく使うコマンド↓
+
+
+- 元に戻す、やり直す  
+例：`//undo`(元に戻す)`//redo 3`(3回やり直す)
+
+- 自分の立ち位置に選択範囲を指定する  
+例：`//pos1`(選択範囲1)`//pos2`(選択範囲2)
+
+- ブロックを置く  
+例：`//set oak_planks`(選択範囲にオークの板材を置く)
+
+- ブロックを置き換える  
+例：`//rep dirt oak_planks`(選択範囲の土をオークの板材に置き換える)
+
+- 選択範囲のブロックを動かす  
+例：`//move 3 u`(選択範囲を3ブロック上に動かす)
+
+- 選択範囲のブロックを繰り返し伸ばす  
+例：`//stack 5 n`(選択範囲を5回)
+
+- 階段の向きなどの情報を維持したまま置き換える  
+例：`//rep oak_stairs ^birch_stairs`(向きはそのままでオークの階段をシラカバの階段に置き換える)
+
+- 特定のブロックのみコピーする  
+例：`//copy -m dirt`(選択範囲の土のみをコピーする)
+
+
+- コピーした模様を貼り付ける  
+例：`//rep oak_planks #clipboard`(オークの板材をコピーしたものに置き換える)
+
+- 空気ブロックを省いて貼り付けをする  
+例：`//paste -a`
