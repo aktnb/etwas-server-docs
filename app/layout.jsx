@@ -48,7 +48,7 @@ export default async function RootLayout({ children }) {
             next: false
           }}
           editLink={null}
-          sidebar={{ 
+          sidebar={{
             defaultMenuCollapseLevel: 1
           }}
         // ... Your additional layout options
