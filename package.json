@@ -13,6 +13,8 @@
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind"
   },
   "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
     "pagefind": "^1.4.0"
   }
 }
