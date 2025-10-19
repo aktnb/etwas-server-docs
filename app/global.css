@@ -1,0 +1,4 @@
+img.item-icon {
+  display: inline-block;
+  image-rendering: pixelated;
+}
